@@ -12,3 +12,4 @@ public class Main {
 }
 
 // ao acessar o atributo preco diretamente dá erro por se tratar de uma variável private//
+//exibi todas oa atributos utilizando o exibirinfo, depois simulei a venda e por último modifiquei acessando os atributos diretamente//

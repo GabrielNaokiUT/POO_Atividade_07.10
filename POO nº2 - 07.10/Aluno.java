@@ -9,9 +9,11 @@ public class Aluno {
         this.idade = idade;
         this.matricula = matricula;
     }
-    public void exbirDados(){
+    public void exibirDados(){
         System.out.println("Nome do Aluno: " + nome + "\n" +
-            "Nº de matrícula do aluno: " + matricula + "\n");
+            "Nº de matrícula do aluno: " + matricula + "\n" +
+            "Idade: " +  idade);
+        validarIdade();
     }
     private void validarIdade(){
         if(idade > 0){

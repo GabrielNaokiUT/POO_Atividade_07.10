@@ -12,7 +12,7 @@ public class Produto {
     public void venderProduto(int unidades){ 
         if( unidades <= quantidade){
             quantidade -= unidades;
-            System.out.println("Quantidade disponível em estoque após venda: " + quantidade);
+            System.out.println("Venda realizada! Quantidade disponível em estoque após venda: " + quantidade);
         }
         else{
             System.out.println("Erro! Pedido de venda ultrapassou limite de estoque.");
@@ -20,6 +20,7 @@ public class Produto {
     }
     public void exibirinfo(){
         System.out.println("Produto: " + nome + "\n" +
+            "Preço: R$" + preco + "\n" +
             "Unidades disponíveis em estoque: " + quantidade + "\n");
     }
 
